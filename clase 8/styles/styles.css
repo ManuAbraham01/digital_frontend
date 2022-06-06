@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Coming+Soon&family=Poppins:wght@400;700&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+header img{
+    width: 200px;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.twitter{
+    color: blue;
+}
+
+.ig{
+    color: red;
+}
+
+.github{
+    color: black;
+}
