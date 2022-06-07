@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Coming+Soon&family=Roboto&display=swap');
+
+*{
+    font-family: 'Roboto';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header h2{
+    background-color: #1CD1B0;
+    padding: 10px;
+    font-size: 16px;
+}
+
+header h1{
+    background-color: #00669F;
+    padding: 30px;
+}
+
+.heroes{
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    height: 500px;
+    width: 300px;
+    border-radius: 15px 15px 0 0;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid #000;
+    margin: 0 20px;
+}
+
+.batman{
+    background-image: url('../img/batman_background_picture.png');
+}
+
+.harley_quinn{
+    background-image: url('../img/harley_quinn_background_picture.png');
+}
+
+.card .fav_icon img{
+    position: relative;
+    bottom: 70px;
+    right: 115px;
+}
+
+.card .profile_picture{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 10px;
+}
+
+.card .profile_picture img{
+    border-radius: 50%;
+}
+
+.card .profile_info {
+    position: relative;
+    top: 20px;
+}
+
+.card .profile_info h2{
+    text-align: center;
+}
+
+.card .profile_info p{
+    max-width: 267px;
+    margin-top: 20px;
+}
+
+.view_more{
+    position: relative;
+    top: 60px;
+}
+
+.view_more a{
+    text-decoration: none;
+    background-color: #00669F;
+    color: #fff;
+    border: none;
+    padding: 15px 40px;
+}
+
+footer p{
+    color: #fff;
+    background-color: #00669F;
+    padding: 20px;
+}
