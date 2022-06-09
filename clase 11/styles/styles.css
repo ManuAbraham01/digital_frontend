@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Coming+Soon&family=Roboto&display=swap');
+
+*{
+    font-family: 'Roboto';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #000;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo h1 .rojo{
+    color: red;
+}
+
+.logo h1 .verde{
+    color: green;
+}
+
+.logo h1{
+    color: #fff;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    margin-right: 10px;
+}
+
+.lista{
+    color: #fff;
+}
+
+.lista ul{
+    list-style: none;
+    display: flex;
+}
+
+.lista ul li{
+    margin: 0 10px;
+}
+
+.box{
+    width: 490px;
+    height: 350px;
+    
+}
+
+.envio{
+    background-image: url("/img/delivery.jpg");
+}
+
+.box h2{
+    padding: 20px;
+    color: red;
+}
+
+.box h2 span{
+    color: #fff;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    font-weight: bold;
+}
+
+.podio_pizzas{
+    width: 490px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.podio_pizzas h2{
+    text-align: center;
+    color: red;
+}
+
+.podio_pizzas_list{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.podio_pizzas_list ol li{
+    margin: 10px 0;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #000;
+}
+
+.footer_nav ul{
+    list-style: none;
+}   
+
+.footer_nav ul li{
+    color: #fff;
+    margin: 10px 0;
+}
