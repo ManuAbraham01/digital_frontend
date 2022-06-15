@@ -95,3 +95,63 @@ footer p{
     background-color: #00669F;
     padding: 20px;
 }
+
+.btn{
+    position: fixed;
+    top: 50%;
+    right: 20px;
+}
+
+.btn button{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #00669F;
+    color: #fff;
+    font-size: 40px;
+    border: none;
+}
+
+/* @media (min-width: 320px){
+    .heroes{
+        flex-direction: column;
+    }
+
+    .card{
+        margin: 10px 0;
+    }
+} */
+
+@media screen and (min-width: 320px){
+    .heroes{
+        flex-direction: column;
+    }
+
+    .card{
+        margin: 10px 0;
+    }
+
+    .btn{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 500px){
+    .btn{
+        display: block;
+    }
+}
+
+@media screen and (min-width: 720px){
+    .heroes{
+        flex-wrap:wrap;
+        flex-direction: row;
+    }
+    
+    .card{
+        margin: 20px 10px;
+    }
+}
+
+
+
